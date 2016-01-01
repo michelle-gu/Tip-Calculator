@@ -14,6 +14,7 @@
 		A344824C1C35DB88000D9CE7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A344824A1C35DB88000D9CE7 /* LaunchScreen.storyboard */; };
 		A34482571C35DB88000D9CE7 /* tipsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A34482561C35DB88000D9CE7 /* tipsTests.swift */; };
 		A34482621C35DB89000D9CE7 /* tipsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A34482611C35DB89000D9CE7 /* tipsUITests.swift */; };
+		A34482701C36024C000D9CE7 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A344826F1C36024C000D9CE7 /* SettingsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		A344825D1C35DB89000D9CE7 /* tipsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tipsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A34482611C35DB89000D9CE7 /* tipsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tipsUITests.swift; sourceTree = "<group>"; };
 		A34482631C35DB89000D9CE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A344826F1C36024C000D9CE7 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				A34482411C35DB88000D9CE7 /* AppDelegate.swift */,
 				A34482431C35DB88000D9CE7 /* ViewController.swift */,
 				A34482451C35DB88000D9CE7 /* Main.storyboard */,
+				A344826F1C36024C000D9CE7 /* SettingsViewController.swift */,
 				A34482481C35DB88000D9CE7 /* Assets.xcassets */,
 				A344824A1C35DB88000D9CE7 /* LaunchScreen.storyboard */,
 				A344824D1C35DB88000D9CE7 /* Info.plist */,
@@ -258,6 +261,7 @@
 			files = (
 				A34482441C35DB88000D9CE7 /* ViewController.swift in Sources */,
 				A34482421C35DB88000D9CE7 /* AppDelegate.swift in Sources */,
+				A34482701C36024C000D9CE7 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -398,9 +402,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = tips/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "michelle-gu.tips";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -409,9 +415,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = tips/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "michelle-gu.tips";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
