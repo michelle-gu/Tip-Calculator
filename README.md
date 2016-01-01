@@ -29,14 +29,14 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='http://imgur.com/rhPeS5q' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
 
 Describe any challenges encountered while building the app.
-The video walkthrough was made using an older version of Swift. I encountered problems when the 
+The video walkthrough was made using an older version of Swift, so I encountered problems when I tried to use the bridgeToObjectiveC() method. I also encountered challenges when connecting the radio buttons, but my errors resolved themselves when I retraced my steps.
 
 ## License
 
